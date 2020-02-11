@@ -32,14 +32,10 @@ The **Is It Now Business Hours?** step is now available in your custom steps. So
 ### Inputs
 | Name  | Required? | Help Text | Default Value | Multiline |
 | ----- | ---------- | --------- | ------------- | --------- |
-| Timezone Offset | Yes | The number of hours from GMT in +dd:dd
-format. -8:00 is pacific time. | | No |
-| Business Hours Start | Yes | The start time of the business day in 24 hour
-clock. | No |
-| Business Hours End | Yes | The end time of the business day in 24 hours
-clock. | | No |
-| Business Days | Yes | A comma separated list of the business days,
-Sunday-Saturday : 0 - 6  | No |
+| Timezone Offset | Yes | The number of hours from GMT in +dd:dd format. -8:00 is pacific time. | | No |
+| Business Hours Start | Yes | The start time of the business day in 24 hour clock. | No |
+| Business Hours End | Yes | The end time of the business day in 24 hours clock. | | No |
+| Business Days | Yes | A comma separated list of the business days, Sunday-Saturday : 0 - 6 | | No |
 
 
 ### Outputs
