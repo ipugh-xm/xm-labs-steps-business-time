@@ -12,11 +12,10 @@ This step allows you to get the commit details from a given repo and user. Great
 ---------
 
 # Files
-
 * [IsitBusinessTime.zip](IsitBusinessTime.zip) - Workflow zip file with the step and example flow
 
 # How it works
-
+The step checks if it is currently business hours.
 
 # Installation
 
@@ -28,6 +27,7 @@ This step allows you to get the commit details from a given repo and user. Great
 
 ## Usage
 The **Is It Now Business Hours?** step is now available in your custom steps. So navigate to the appropriate canvas so you can add the step there. If you'd like to experiment with it, the **A Form** workflow has a canvas that can be triggered via HTTP call. 
+
 
 ### Inputs
 | Name  | Required? | Help Text | Default Value | Multiline |
@@ -48,5 +48,6 @@ The **Is It Now Business Hours?** step is now available in your custom steps. So
 ## Example
 
 <kbd>
+  <img src="/media/ExampleFlow.png">
 </kbd>
 
