@@ -14,7 +14,7 @@ This step allows you to find if it is currently business hours or not. With a sw
 * [IsitBusinessTime.zip](IsitBusinessTime.zip) - Workflow zip file with the step and example flow
 
 # How it works
-The step checks if it is currently business hours.
+The step checks if it is currently business hours. It takes in the timezone in order to make sure the times are local to wherever you are (e.g. US vs. India).
 
 # Installation
 
@@ -31,10 +31,10 @@ The **Is It Now Business Hours?** step is now available in your custom steps. So
 ### Inputs
 | Name  | Required? | Help Text | Default Value | Multiline |
 | ----- | ---------- | --------- | ------------- | --------- |
-| Timezone Offset | Yes | The number of hours from GMT in +dd:dd format. -8:00 is pacific time. | | No |
-| Business Hours Start | Yes | The start time of the business day in 24 hour clock. | | No |
-| Business Hours End | Yes | The end time of the business day in 24 hours clock. | | No |
-| Business Days | Yes | A comma separated list of the business days, Sunday-Saturday : 0 - 6 | | No |
+| Timezone Offset | Yes | The number of hours from GMT in +dd:dd format. -8:00 is pacific time. | -08:00 | No |
+| Business Hours Start | Yes | The start time of the business day in 24 hour clock. | 09:00 | No |
+| Business Hours End | Yes | The end time of the business day in 24 hours clock. | 17:00 | No |
+| Business Days | Yes | A comma separated list of the business days, Sunday-Saturday : 0 - 6 | 0,1,2,3,4 | No |
 
 
 ### Outputs
