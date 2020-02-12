@@ -1,7 +1,6 @@
 # Business Hours Steps
 
-This step allows you to get the commit details from a given repo and user. Great for enriching notifications with relevant code commit information. 
-
+This step allows you to find if it is currently business hours or not. With a switch you can do different things based on if the time currently fits your time constraint.
 
 ---------
 
